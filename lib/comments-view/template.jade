@@ -1,6 +1,9 @@
 - var logged = user.logged()
 
 .comments
+  .inner-container.expert-comments
+    h4=t('comments.expert.arguments')
+    ul.media-list.expert-comments-list
   - if (logged)
     .inner-container.my-comments
       h4=t('comments.your.arguments')

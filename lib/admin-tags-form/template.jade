@@ -12,6 +12,9 @@
         label= t('admin-tags-form.label.name')
         input.form-control(type='text', id="name", name='name', tabindex=tabindex++, placeholder=t('admin-tags-form.placeholder.name'), value=tag.name, validate='required')
       .form-group
+          label= t('admin-tags-form.label.email')
+          input.form-control(type='text', id="email", name='email', tabindex=tabindex++, placeholder=t('admin-tags-form.placeholder.email'), value=tag.expert.email, validate='required')
+      .form-group
         label= t('admin-tags-form.label.image')
         ul.tag-images
           - each image in images
