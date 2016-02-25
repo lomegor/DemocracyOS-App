@@ -21,10 +21,11 @@ mixin comment-form
     ul.media-list.expert-comments-list
     - if (expert)
       +comment-form
-  .inner-container.my-comments(class=expert ? 'hide' : '')
-    h4=t('comments.your.arguments')
-    ul.media-list.my-comments-list
-    +comment-form
+  - if (logged)
+    .inner-container.my-comments(class=expert ? 'hide' : '')
+      h4=t('comments.your.arguments')
+      ul.media-list.my-comments-list
+      +comment-form
   .inner-container.all-comments
     h4=t('comments.arguments')
     ul.media-list.comments-list
@@ -32,7 +33,8 @@ mixin comment-form
     - if (!logged)
       .box
         p.text-mute= t('comments.sign-in-required')
-          | .&nbsp;
+          |.
+          br
           a(href="/signin")= t('signin.login')
           | &nbsp;#{t('common.or')}&nbsp;
           - var signupUrl = '/signup?reference=' + reference
