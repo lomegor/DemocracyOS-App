@@ -1,5 +1,5 @@
 {
-  "locale": "en",
+  "locale": "es",
   "protocol": "http",
   "host": "localhost",
   "publicPort": 3000,
@@ -132,5 +132,5 @@
     "uk",
     "zh_TW"
   ],
-  "enforceLocale": false
+  "enforceLocale": true
 }
