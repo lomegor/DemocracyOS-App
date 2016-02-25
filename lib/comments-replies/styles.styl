@@ -8,6 +8,8 @@
     li.reply-item
       max-width: 500px
       border-left: 1px solid rgba(189,195,199, 0.8)
+      border: 1px solid rgba(189, 195, 199, 0.8)
+      background: #F9F9F9
       margin-left: 10px
       padding-top: 6px
       &:hover .actions
@@ -20,16 +22,11 @@
           color: #bdc3c7
         .remove-reply
           display: block
-          padding-top: 30px
           top: -15px
         .comment-actions
           display: none
-      &:first-child
-        border-top: 1px solid rgba(189, 195, 199, 0.8)
         .arrow-up, .inner
           display: block
-      &:last-child
-        border-bottom: 0px
 
       .arrow-up
         position: absolute
@@ -40,7 +37,6 @@
         border-left: 10px solid transparent
         border-right: 10px solid transparent
         border-bottom: 10px solid rgba(189, 195, 199, 0.8)
-        display: none
         &.inner
           top: 4px
           border-bottom: 10px solid #f9f9f9
