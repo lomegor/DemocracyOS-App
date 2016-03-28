@@ -1,23 +1,4 @@
 
-1.1.5 / 2016-05-18
-==================
-
-  * Fix forum delete modal#1210
-  * Fixed polish translations
-  * fix social links #1199
-  * Fix facebook authentication #1204
-
-1.1.4 / 2016-04-13
-==================
-
-  * Update mLab MongoDB Env var (#1203)
-  * Update README.md (#1201)
-
-1.1.3 / 2016-03-30
-==================
-
-  * Don't show Forums settings when the app is on singleForum mode #1198
-
 1.1.2 / 2016-03-28
 ==================
 
