@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: development.Dockerfile
+    image: democracyos/democracyos:development
+    links:
+      - mongodb
+    ports:
+      - "3000:3000"
+    # mount source volume, but
+    # don't overwrite `node_modules` or mirror dir from container
+    volumes:
+      - ${PWD}:/usr/src
+      - /usr/src/node_modules
+
+  mongodb:
+    image: mongo
+    # Optionally mount data directory
+    # volumes:
+    #   - path-to-your-data-dir:/data/db

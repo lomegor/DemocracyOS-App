@@ -29,4 +29,8 @@ clean:
 	@rm -rf node_modules components public
 	@echo "Done.\n"
 
+docker:
+	@echo "Starting DemocracyoOS docker development environment..."
+	@docker-compose up app
+
 .PHONY: clean

@@ -1,0 +1,5 @@
+{
+  "mongoUrl": "mongodb://mongodb/DemocracyOS-dev",
+  "organizationName": "DemocracyOS development",
+  "organizationUrl": "https://github.com/DemocracyOS/app"
+}
