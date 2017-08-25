@@ -1,7 +1,7 @@
 # DemocracyOS [![Deploy](https://www.herokucdn.com/deploy/button.png)](http://bit.ly/1iHAcWz)
-[![Dependencies](https://david-dm.org/DemocracyOS/app.svg)](https://david-dm.org/DemocracyOS/app.svg)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/app)
-[![Code Climate](https://codeclimate.com/github/DemocracyOS/app/badges/gpa.svg)](https://codeclimate.com/github/DemocracyOS/app)
+[![Dependencies](https://david-dm.org/DemocracyOS/democracyos.svg)](https://david-dm.org/DemocracyOS/democracyos.svg)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/democracyos)
+[![Code Climate](https://codeclimate.com/github/DemocracyOS/democracyos/badges/gpa.svg)](https://codeclimate.com/github/DemocracyOS/democracyos)
 
 DemocracyOS is an online space for deliberation and voting on political proposals. It is a platform for a more open and participatory government.The software aims to stimulate better arguments and come to better rulings, as peers.
 
@@ -17,7 +17,7 @@ Please refer to the [Installation](http://docs.democracyos.org/install.html) wik
 * [DemocracyOS - PDR](http://dos.partidodelared.org): The Net Party's official deployment of DemocracyOS.
 * [EuVoto](http://euvoto.org/): Brazilian initiative by the Open Knowledge Foundation Brasil to discuss legislation in the city of Sao Paulo.
 * [Loi Renseignement](http://pjlr.democracyos.eu/): First deployment by DemocracyOS France to discuss the Loi Renseignement.
-* [Evoks](http://evoks.hu/): Hungarian project by Atlatzo.hu for discussing social issues.
+* [Evoks](http://evoks.hu/): Hungarian project by Atlatszo.hu for discussing social issues.
 * [PAMI](http://debatics.pami.org.ar/): The largest healthcare program for elderly people opens its technical decisions.
 * [Ukrainian Choice](http://ukrainianchoice.herokuapp.com/law/557ba8ca29e8180300c88c48): Official deployment of DemocracyOS Ukraine.
 * [Paris](https://crm.paris.fr/2016/): Official deployment of DemocracyOS in Paris (France) by city's mayor Anne Hidalgo.
@@ -43,8 +43,8 @@ See [CONTRIBUTORS.md](https://github.com/DemocracyOS/app/blob/master/CONTRIBUTOR
 We support real browsers and IE10+
 
 ## Acknowledgements
-Tag icons made by Yannick from [flaticon.com](http://www.flaticon.com) licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
+Icons made by [Jamal Jama](https://twitter.com/byjml) and [Ahmad Firoz](https://twitter.com/firoz_usf) from [simplelineicons.com](http://simplelineicons.com/).
 
 ## License
 
-DemocracyOS is open source software under the GPL v3.0 license. Please see full terms in the [LICENSE.txt](LICENSE.txt) file.
+DemocracyOS is open source software under the GPL v3.0 license. Please see full terms in the [LICENSE](LICENSE) file.
