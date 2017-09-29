@@ -1,0 +1,5 @@
+.user(data-user=user.id)
+  img(src=user.avatar)
+  p(title=user.displayName)= user.displayName
+  button.btn.btn-danger.revoke(type='button', data-revoke=user.id)= t('admin-tags-form.remove')
+
