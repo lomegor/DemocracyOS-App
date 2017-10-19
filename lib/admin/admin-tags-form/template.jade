@@ -9,6 +9,10 @@
       .form-group
         label= t('admin-tags-form.label.name')
         input.form-control(type='text', maxlength='50', id="name", name='name', placeholder=t('admin-tags-form.placeholder.name'), value=tag.name, validate='required')
+      .form-group.experts
+        label= t('admin-tags-form.label.experts')
+        .admin-tags-form-experts(data-list)
+        input(type='hidden', id='experts', name='experts')
       .form-group
         label= t('admin-tags-form.label.image')
         .tag-images
