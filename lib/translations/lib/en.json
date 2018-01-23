@@ -331,6 +331,7 @@
   "settings.confirm-password": "Confirm new password",
   "settings.current-password": "Current password",
   "settings.first-name": "First name",
+  "settings.full-name": "Name",
   "settings.last-name": "Last name",
   "settings.locale": "Language",
   "settings.locale.ca": "Catalan",

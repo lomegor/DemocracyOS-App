@@ -336,6 +336,7 @@
   "settings.confirm-password": "Confirmar contraseña nueva",
   "settings.current-password": "Contraseña actual",
   "settings.first-name": "Nombre",
+  "settings.full-name": "Nombre",
   "settings.last-name": "Apellido",
   "settings.locale": "Idioma",
   "settings.locale.ca": "Catalán",
