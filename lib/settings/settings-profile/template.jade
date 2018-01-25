@@ -8,7 +8,7 @@
       ul.form-messages
       .form-group
         label= t('settings.full-name')
-        input.form-control(type='text', id='fullName', name='fullName', maxlength=100, placeholder=t('settings.full-name'), value='#{user.fullName}', validate='required fullname')
+        input.form-control(type='text', disabled='disabled', id='fullName', name='fullName', maxlength=100, placeholder=t('settings.full-name'), value='#{user.fullName}', validate='required fullname')
       .form-group
         label= t('signup.email')
         input.form-control(type='text', disabled='disabled', name='email', maxlength=200, placeholder=t('forgot.mail.example'), value='#{user.email}', validate='required email')
