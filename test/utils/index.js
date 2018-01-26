@@ -8,16 +8,16 @@ var Forum = require('lib/models').Forum
 
 function createUser (user) {
   return new Promise(function (resolve, reject) {
-    log('Creating user %s %s', user.firstName, user.lastName)
+    log('Creating user %s %s', user.fullName)
     var u = new User(user)
     u.save(function (err, doc) {
-      log('Saving user %s %s', user.firstName, user.lastName)
+      log('Saving user %s %s', user.fullName)
       if (err) {
-        log('Error saving user %s %s: %s', user.firstName, user.lastName, err)
+        log('Error saving user %s %s: %s', user.fullName, err)
         return reject(err)
       }
 
-      log('User %s %s saved successfully', user.firstName, user.lastName)
+      log('User %s %s saved successfully', user.fullName)
       resolve(doc)
     })
   })
